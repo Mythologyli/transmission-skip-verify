@@ -1,0 +1,11 @@
+{
+    "protocol": "http",
+    "host": "127.0.0.1",
+    "port": 9091,
+    "path": "/transmission/",
+    "username": "",
+    "password": "",
+    "transmission_resume_path": "~/.config/transmission-daemon/resume",
+    "transmission_torrents_path": "~/.config/transmission-daemon/torrents",
+    "default_download_dir": ""
+}
