@@ -28,13 +28,13 @@ A simple Python script to help you skip verifying torrents in [Transmission](htt
    + path: no need to modify
    + username
    + password
-   + transmission_resume_path: resume file directory. If Transmission runs in a Docker container, it is **the a path in the host**
+   + transmission_resume_path: resume file directory. If Transmission runs in a Docker container, it is ** a path in the host**
    + transmission_torrents_path: directory of torrent files. If Transmission runs in a Docker container, it is **a path in the host**
    + default_download_dir: The default download directory when no download directory is specified at running. If Transmission runs in a Docker container, it is **a path in the container**
 
 5. Run the script: `python3 main.py` or `python main.py`.
 
-6. Enter the path or download link of the torrent. If you need to add multiple torrents at once, put the torrents torrents folder and press ENTER. **The torrents folder will be emptied after running**.
+6. Enter the path or download link of the torrent. If you need to add multiple torrents at once, put the torrents folder and press ENTER. **The torrents folder will be emptied after running**.
 
 7. Enter the download directory. If Transmission runs in a Docker container, it is **a path inside the container**. Press ENTER to use default_download_dir in config.json.
 
