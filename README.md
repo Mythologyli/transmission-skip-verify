@@ -22,7 +22,7 @@ A simple Python script to help you skip verifying torrents in [Transmission](htt
 
 4. Create config.json in repository folder according to config.json.template:
 
-   + protocol: in "http" or "https"
+   + protocol: "http" or "https"
    + host: IP address of Transmission Web
    + port: port of Transmission Web
    + path: no need to modify
