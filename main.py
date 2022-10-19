@@ -112,8 +112,8 @@ def main():
     host = config['host']
     port = config['port']
     client_path = config['path']
-    transmission_resume_path = Path(config['transmission_resume_path'])
-    transmission_torrents_path = Path(config['transmission_torrents_path'])
+    transmission_resume_path = Path(config['transmission_resume_path']).expanduser()
+    transmission_torrents_path = Path(config['transmission_torrents_path']).expanduser()
     default_download_dir = config['default_download_dir']
 
     torrent_find_path_list: List[Path] = []
