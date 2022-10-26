@@ -11,7 +11,7 @@ import bencodepy
 
 def add_torrent_and_skip_check(
         client: Client,
-        torrent_find_path: BinaryIO | str | bytes | Path,
+        torrent_find_path: Path,
         download_dir: str,
         transmission_resume_path: Path,
         transmission_torrents_path: Path
